@@ -150,19 +150,26 @@ if b_data:
             with v_col2:
                 st.video(url_video)
 
-        # --- LABELS FINAIS: CRÉDITOS E PARCERIA ---
+# --- 5. ANÁLISE TÉCNICA (NOVO LABEL DE RESUMO) ---
+        analise = info_classe.get("analise_tecnica")
+        if analise:
+            st.markdown(f"""
+                <div style="background: rgba(0, 255, 204, 0.02); border-left: 5px solid {COR_TITULO_PRINCIPAL}; padding: 25px; border-radius: 0 12px 12px 0; margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.05);">
+                    <div style="color: {COR_TITULO_PRINCIPAL}; font-weight: bold; font-size: 15px; margin-bottom: 10px; display: flex; align-items: center; letter-spacing: 1px;">
+                        <span style="margin-right:12px; font-size: 20px;">🔬</span> ANÁLISE TÉCNICA DE EQUIPAMENTOS
+                    </div>
+                    <div style="color: #ccc; font-size: 13px; line-height: 1.8;">{analise}</div>
+                </div>
+            """, unsafe_allow_html=True)
+
+        # --- 6. LABELS FINAIS: CRÉDITOS E PARCERIA ---
         st.markdown("<br>", unsafe_allow_html=True)
         footer_c1, footer_c2 = st.columns(2)
-
+        
         with footer_c1:
             creditos = info_classe.get("creditos", "Equipe BR//WZ")
-            st.markdown(
-                f"""<div style="background: rgba(255, 255, 255, 0.03); border-left: 5px solid #00ffff; padding: 20px; border-radius: 0 10px 10px 0; border-top: 1px solid rgba(255,255,255,0.05);"><div style="color: #00ffff; font-weight: bold; font-size: 13px; margin-bottom: 5px;">🤝 CRÉDITOS / COLABORAÇÃO</div><div style="color: #ccc; font-size: 12px;">{creditos}</div></div>""", unsafe_allow_html=True)
-
+            st.markdown(f"""<div style="background: rgba(255, 255, 255, 0.03); border-left: 5px solid #00ffff; padding: 20px; border-radius: 0 10px 10px 0; border-top: 1px solid rgba(255,255,255,0.05);"><div style="color: #00ffff; font-weight: bold; font-size: 13px; margin-bottom: 5px;">🤝 CRÉDITOS / COLABORAÇÃO</div><div style="color: #ccc; font-size: 12px;">{creditos}</div></div>""", unsafe_allow_html=True)
+        
         with footer_c2:
             parceria = info_classe.get("parceria", "Espaço para Parceiros")
-            st.markdown(
-                f"""<div style="background: rgba(255, 255, 255, 0.03); border-left: 5px solid #ffd700; padding: 20px; border-radius: 0 10px 10px 0; border-top: 1px solid rgba(255,255,255,0.05);"><div style="color: #ffd700; font-weight: bold; font-size: 13px; margin-bottom: 5px;">⭐ PARCERIA / APOIO</div><div style="color: #ccc; font-size: 12px;">{parceria}</div></div>""", unsafe_allow_html=True)
-
-    else:
-        st.info("☝️ Selecione uma das classes recomendadas acima.")
+            st.markdown(f"""<div style="background: rgba(255, 255, 255, 0.03); border-left: 5px solid #ffd700; padding: 20px; border-radius: 0 10px 10px 0; border-top: 1px solid rgba(255,255,255,0.05);"><div style="color: #ffd700; font-weight: bold; font-size: 13px; margin-bottom: 5px;">⭐ PARCERIA / APOIO</div><div style="color: #ccc; font-size: 12px;">{parceria}</div></div>""", unsafe_allow_html=True)
