@@ -74,23 +74,40 @@ CLASSES_DB = {
             "img": "assets/class/swordmaster.png",
             "lore": "Nascido pra empunhar a espada, o Mestre da Espada acerta seus inimigos direto no coração! Golpeie com fúria e foco pra reinar absoluto, amassando geral!.",
             "skills": {
-                "E": {"nome": "Crescent Strike", "cd": "5s", "desc": "Lançe um ataque crescente contra seus inimigos."},
-                "R": {"nome": "Leap Dash", "cd": "8s", "desc": "Salte em direção aos seus inimigos e desfira um golpe poderoso."},
-                "X": {"nome": "Sword Cyclone", "cd": "30-200s", "desc": "Gire rapidamente criando um Ciclone que causa dano em todas as direções. Todos os golpes são ACERTOS CRÍTICOS."},
-                "C": {"nome": "Dash", "cd": "2s", "desc": "Dê um impulso para a direção que o personagem estiver olhando."}
+                "E": {"nome": "Crescent Strike", "cd": "5s", "desc": "Lançe um ataque crescente contra seus inimigos. <span style='color: #d4af37; font-weight: bold;'>[Projétil em Linha Reta]</span>"},
+                "R": {"nome": "Leap Dash", "cd": "8s", "desc": "Salte em direção aos seus inimigos e desfira um golpe poderoso. <span style='color: #d4af37; font-weight: bold;'>[Corpo a Corpo]</span>"},
+                "X": {
+                    "nome": "Sword Cyclone",
+                    "cd": "30-200s",
+                    "desc": "Gire rapidamente criando um Ciclone que causa dano em todas as direções. <span style='color: #ff4b4b; font-weight: bold;'>Todos os golpes são ACERTOS CRÍTICOS.</span> <span style='color: #d4af37; font-weight: bold;'>[Controle de Grupo Circular]</span>"
+                },
+                "C": {"nome": "Dash", "cd": "2s", "desc": "Dê um impulso para a direção que o personagem estiver olhando. <span style='color: #d4af37; font-weight: bold;'>[Dica: Mantenha a tecla pressionada (WASD) e você dará um impulso, se não pressionar nehnuma tecla o personagem pula para trás]</span>"}
             }
         },
         "Arcane Mage": {
-            "equip": "Staff", "lvl": 1, "hp_mult": "x0.8", "aggro": "x0.5",
-            "img": "https://i.imgur.com/ArW80nS.png", # Mantive este online até você ter a imagem local
-            "lore": "Master of arcane energies, capable of destroying armies from afar with elemental fury.",
+            "equip": "Staff", "lvl": 1, "hp_mult": "x0.9", "aggro": "x1.2",
+            # Mantive este online até você ter a imagem local
+            "img": "assets/class/arcanemage.png",
+            "lore": "Canalize o poder supremo da energia arcana. Este mago utiliza os feitiços mais simples para criar uma força avassaladora de poder.",
             "skills": {
-                "E": {"nome": "Meteor", "cd": "15s", "desc": "Summons a meteor at the target location."},
-                "R": {"nome": "Overload", "cd": "50s", "desc": "Releases all mana in a massive burst."},
-                "X": {"nome": "Blink", "cd": "5s", "desc": "Teleports a short distance forward."},
-                "C": {"nome": "Arcane Bolt", "cd": "2s", "desc": "Fires a basic bolt of magic."}
+                "E": {"nome": "Arcane Blast", "cd": "5s", "desc": "Lança um orbe explosivo que causa 1 de dano em área. <span style='color: #ffffff; font-weight: bold;'>O dano em área tem um raio de 15 studs.</span> <span style='color: #d4af37; font-weight: bold;'>[Projétil Explosivo]</span>"},
+                "R": {"nome": "Arcane Wave", "cd": "8s", "desc": "Desencadeie quatro explosões no chão à sua frente. Cada golpe acerta três vezes e todos os doze golpes causam 0,8 de dano por golpe. <span style='color: #d4af37; font-weight: bold;'>[Controle de Grupo Frontal]</span>"},
+                "X": {"nome": "Arcane Ascension", "cd": "30-200s", "desc": "Lance uma Orbe Gigante de Energia Arcana nos inimigos próximos. <span style='color: #d4af37; font-weight: bold;'>[Controle de Grupo Único]</span>"},
+                "C": {"nome": "Dash", "cd": "2s", "desc": "Dê um impulso para a direção que o personagem estiver olhando. <span style='color: #d4af37; font-weight: bold;'>[Dica: Mantenha a tecla pressionada (WASD) e você dará um impulso, se não pressionar nehnuma tecla o personagem pula para trás]</span>"}
             }
-        }
+        },
+        "Defender": {
+            "equip": "1x Greataxe", "lvl": 1, "hp_mult": "x1.0", "aggro": "x1.3",
+            # CAMINHO LOCAL DA IMAGEM:
+            "img": "assets/class/swordmaster.png",
+            "lore": "O defensor usa um machado para desferir golpes devastadores, avançando para proteger a todos com o poderoso peso do aço.",
+            "skills": {
+                "E": {"nome": "Ground Breaker", "cd": "5s", "desc": "Executa um salto com seu Machado, você pode se movimentar enquanto controla a direção porém tem 65% de redução de movimento. <span style='color: #d4af37; font-weight: bold;'>[Corpo a Corpo Frontal]</span>"},
+                "R": {"nome": "Cyclone Swing", "cd": "8s", "desc": "Gire seu Machado para onde quiser, porém com 65% de movimento reduzido. O machado gopeia 1x por giro. <span style='color: #d4af37; font-weight: bold;'>[Controle de Grupo Circular]</span>"},
+                "X": {"nome": "Defender's Shield", "cd": "30-200s", "desc": "Golpeia um Escudo Gigante no chão e aplica ondas de 5 segundos de Regeneração. <span style='color: #d4af37; font-weight: bold;'>[Suporte]</span>"},
+                "C": {"nome": "Dash", "cd": "2s", "desc": "Dê um impulso para a direção que o personagem estiver olhando. <span style='color: #d4af37; font-weight: bold;'>[Dica: Mantenha a tecla pressionada (WASD) e você dará um impulso, se não pressionar nehnuma tecla o personagem pula para trás]</span>"}
+            }
+        },
     }
 }
 
@@ -167,7 +184,7 @@ elif st.session_state.pagina == 'Classes':
                 <div class="skill-desc-box">
                     <h3 style='margin:0; color:#00ffcc;'>{s_info['nome']}</h3>
                     <p style='margin-top:10px; color:#eee;'>{s_info['desc']}</p>
-                    <code style='color:#00ffcc; background:transparent;'>COOLDOWN: {s_info['cd']}</code>
+                    <code style='color:#00ffcc; background:transparent;'>TEMPO DE RECARGA: {s_info['cd']}</code>
                 </div>
             """, unsafe_allow_html=True)
 
