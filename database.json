@@ -1,0 +1,123 @@
+{
+    "home": {
+        "ultima_atualizacao": "02/03/2026",
+        "noticias": [
+            "[EVENTO] (02/03): 🏹 UPDATE: CUPID CHALLENGE MODE & HOT QUESTS! 💘  O World//Zero acaba de atualizar! Confira os destaques para não perder nada: ⚔️ MODO DESAFIO (CHALLENGE MODE)      Cupido Challenge: Derrote o boss no Modo Desafio para recompensas melhores e taxas de drop aumentadas!      Drops Exclusivos: Chance maior de dropar Ovos e acesso exclusivo às novas skins de arma Coldheart.      Vem aí: O Modo Insano do Cupido começa no dia 6 de Março!  💎 NOVOS ITENS E COSMÉTICOS      Baú Heartbreaker: Novas skins de armas e a Montaria Rara do Cupido Heartbreaker.      Loja de Cash: Novas Asas Heartbreaker Animadas (cores aleatórias na compra).      Códigos Ativos: * HEARTBREAKER (Moedas de Valentine)          QUESTS (150 Cristais)  📜 NOVO SISTEMA DE \"HOT QUESTS\" E UI      Interface Nova: Visual renovado para as missões.      Hot Quests: Complete missões diárias para manter seu streak e ganhar recompensas.      XP de Battlepass: Cada Hot Quest concede 250 XP durante eventos.      Mais Recompensas: Agora são 10 Missões Diárias no total.      End Game: Jogadores no nível máximo recebem Nightmare Coins em vez de XP.      Semanais: 3 missões extras adicionadas às semanais (VIP continua necessário para o progresso final).  🔧 CORREÇÕES      Placar (Leaderboard) do Cupido e missões da Roda da Fortuna agora estão funcionando 100%.",
+            "[AVISO] (01/03): 🚀 A Wiki Oficial da Comunidade Brasileira de World//Zero acaba de entrar em fase Alpha! Estamos trabalhando para catalogar todas as builds, pets e segredos do jogo. Fique atento às atualizações diárias!"
+        ],
+        "evento_ativo": {
+            "titulo": "Cupid Boss",
+            "descricao": "Modo Challenge do Cupido já está liberado turma!",
+            "termina_em": "20/04/2026"
+        },
+        "status_server": "ONLINE",
+        "codigos_ativos": "HEARTBREAKER\nQUESTS\nVALENTINES26 \nCUPID26 ",
+        "bem_vindo": "Seja bem vindo a nossa Wiki BR do World Zero!"
+    },
+    "itens": [],
+    "perks": [],
+    "pets": [
+        {
+            "nome": "Vane Aether Dragon",
+            "obtencao": "Torre do Mundo 9",
+            "skill_nome": "Frontal Fire",
+            "elemento": "🔥 Fogo",
+            "tags_skill": [
+                "DoT (Dano por tempo)",
+                "AoE (Área)"
+            ],
+            "skill_desc": "teste"
+        }
+    ],
+    "skills": [],
+    "builds": [
+        {
+            "nome": "Modo Challenge - Starbreaker",
+            "autor": "Reaper",
+            "classe": "Starbreaker",
+            "kit": "2x Greatsword",
+            "tags": [
+                "Tank",
+                "Eventos"
+            ],
+            "usa_duas_armas": true,
+            "perks": {
+                "armas": [
+                    [
+                        "Attack Up",
+                        "Burn Chance",
+                        "Vampiric"
+                    ],
+                    [
+                        "Attack Up",
+                        "Crit Stack",
+                        "Boss Bane"
+                    ]
+                ],
+                "armadura": [
+                    "Rough Skin",
+                    "Poisonous Thorns",
+                    "Fortress"
+                ],
+                "pet": [
+                    "Attack Up",
+                    "Agility",
+                    "Vampiric"
+                ]
+            },
+            "video": "https://www.youtube.com/watch?v=PdaWNaU-OjU",
+            "desc": "Essa build foi criada pelo Player da comunidade Reaper.",
+            "data": "02/03/2026"
+        }
+    ],
+    "perks_disponiveis": {
+        "arma": [
+            "Vampiric",
+            "Attack Up",
+            "Burn Chance",
+            "Ferocious",
+            "Crit Stack",
+            "Frost Chance",
+            "Poison Chance",
+            "Boss Bane",
+            "Elite Assassin"
+        ],
+        "armadura": [
+            "Glass",
+            "Untouchable",
+            "Agility",
+            "Energized",
+            "Rough Skin",
+            "Fortress",
+            "HP UP",
+            "Self Destruction",
+            "Damage Reduction",
+            "Poisonous Thorns"
+        ],
+        "pet": [
+            "Attack Up",
+            "Energized",
+            "Agility",
+            "Vampiric",
+            "Boss Bane",
+            "Ferocious",
+            "Elite Assassin"
+        ]
+    },
+    "noticias": [
+        {
+            "titulo": "Update no Evento Cupido + Novas Quests!",
+            "conteudo": "🏹 UPDATE: CUPID CHALLENGE & HOT QUESTS! 💘\n\n⚔️ MODO DESAFIO\n• Cupido Challenge: Melhor drop de Ovos e recompensas!\n• Skins Coldheart: Drops exclusivos deste modo.\n• Cupido Insano: Disponível em 06 de Março.\n\n💎 ITENS E COSMÉTICOS\n• Baú Heartbreaker: Novas Skins e Montaria Rara.\n• Asas Animadas: Novas cores na Loja de Cash.\n• Códigos: HEARTBREAKER (Coins) e QUESTS (Crystals).\n\n📜 HOT QUESTS & UI\n• Nova Interface: Sistema de missões renovado.\n• Diárias: 10 missões totais com bônus de streak.\n• XP: +250 XP de Battlepass por Hot Quest.\n• End Game: Level Max ganha Nightmare Coins.\n• Semanais: +3 missões extras (VIP necessário p/ bônus).\n\n🔧 CORREÇÕES\n• Leaderboard do Cupido e Roda da Fortuna 100% fixados.",
+            "data": "02/03/2026 02:11"
+        }
+    ],
+    "marketplace": [
+        {
+            "nome": "Vampire Suit",
+            "categoria": "Costume",
+            "preco": 1000000,
+            "hex_original": "#1E1E1E",
+            "atualizado_em": "02/03/2026"
+        }
+    ]
+}
