@@ -36,7 +36,7 @@ with col_f1:
 
 with col_f2:
     categorias = ["Todos", "Aura", "Weapon Skin", "Hat", "Tail",
-                  "Back", "Costume", "Mount", "Both", "Furniture"]
+                  "Back", "Costume", "Mount", "Both", "Furniture", "Zero", "Pet"]
     cat_filtro = st.selectbox("Filtrar Categoria", categorias)
 
 # --- LÓGICA DE FILTRAGEM ---

@@ -239,7 +239,7 @@ if senha == "1234":
             col1, col2 = st.columns(2)
             item_nome = col1.text_input("Nome do Item")
             item_cat = col2.selectbox(
-                "Categoria", ["Aura", "Weapon Skin", "Hat", "Tail", "Back", "Costume", "Mount", "Both", "Furniture"])
+                "Categoria", ["Aura", "Weapon Skin", "Hat", "Tail", "Back", "Costume", "Mount", "Both", "Furniture", "Zero", "Pet"])
 
             col3, col4 = st.columns(2)
             item_preco = col3.number_input(
